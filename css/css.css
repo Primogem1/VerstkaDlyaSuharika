@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav, footer,header,asider{display: block;}
+html,body{
+    height: 100%;
+    width:100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+input::as-clear{display: none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: inherit;}
+ 
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wraper{
+    min-height: 100%;
+    min-width: 100%;
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+}
+.content{
+    flex: 1 1 auto;
+}
+.top{
+    padding: 50px;
+   background: #363539;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+.label{
+    font-size: 30px;
+    color: #edebe7;
+    font-weight: 800;
+    letter-spacing: 0.2px;
+    margin: 0px 0px 30px 0px;
+}
+.list li{
+    color: #edebe7;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+    line-height: 17px;
+}
+.list li::first-letter{
+    font-size: 15px;
+}
+.list li::before{
+   content:" ";
+   background: url(/css/check-mark-297739_640.webp);
+}
+.imgtop{
+ max-width: 300px;
+ border: 1px solid #edebe7;
+}
+.footer{
+    display:flex;
+    height: 65px;
+    background: #edebe7;
+    justify-content: center;
+    align-items: center;
+}
+.bottom{
+ font-size: 12px;
+ font-weight: 800;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
